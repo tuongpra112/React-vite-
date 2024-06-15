@@ -5,6 +5,13 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  // function myFunction() {
+  //   console.log(">>>run my function")
+  // }
+  const myFunction = () => {
+    console.log(">>> arrow function")
+  }
+  myFunction()
 
   return (
     <>
